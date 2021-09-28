@@ -32,6 +32,7 @@ header::after {
 nav {
   display: flex;
   justify-content: space-around;
+  margin: 0 auto;
 }
 
 nav a {
@@ -50,6 +51,7 @@ nav a:hover {
 
 nav ul {
   margin-left: auto;
+  margin-top: 15px;
   padding: 0px;
   list-style: none;
   font-family: 'Teko', sans-serif;
@@ -60,7 +62,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 20px;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 /* **** */
@@ -116,15 +118,38 @@ h3 {
 /* ****** */
 
 .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #ff2643;
-  flex-shrink: 0;
   padding: 10px;
-  text-align: center;
   margin-top: 30px;
 }
 
 .footer-text {
   font-size: 15px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-logo {
+  width: 50px;
+  margin: 5px 20px 5px 20px;
+}
+
+.list-style {
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* ****** */
