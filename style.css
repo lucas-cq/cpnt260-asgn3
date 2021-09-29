@@ -13,7 +13,6 @@ body {
 
 .div-img {
   max-width: 120px;
-  float: left;
 }
 
 .header-color {
@@ -129,6 +128,7 @@ h3 {
 .footer-text {
   font-size: 15px;
   margin-bottom: 0px;
+  padding: 10px;
 }
 
 .footer-box {
@@ -250,13 +250,14 @@ a {
 
 figcaption {
   font-size: 20px;
-  padding: 0 auto;
   font-family: 'Lato', sans-serrif;
-  margin: 0px auto 0px 20px;
+  margin: 5px auto 5px 15px;
 }
 
-figure article {
-  font-size: 15px;
-  margin: 5px auto 5px 20px;
-  font-family: 'Lato', sans-serrif;
+.heart {
+  width: 30px;
+  margin-left: auto;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  
 }
