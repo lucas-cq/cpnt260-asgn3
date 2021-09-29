@@ -255,7 +255,7 @@ figcaption {
   margin: 0px auto 0px 20px;
 }
 
-figure, flowcontent {
+figure article {
   font-size: 15px;
   margin: 5px auto 5px 20px;
   font-family: 'Lato', sans-serrif;
