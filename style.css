@@ -128,6 +128,7 @@ h3 {
 
 .footer-text {
   font-size: 15px;
+  margin-bottom: 0px;
 }
 
 .footer-box {
@@ -135,17 +136,25 @@ h3 {
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-top: 0 auto;
+  padding: 0 auto;
 }
 
 .footer-logo {
   width: 50px;
   margin: 5px 20px 5px 20px;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .list-style {
   list-style: none;
   display: inline;
   text-decoration: none;
+}
+
+ul {
+  padding: 0;
 }
 
 a {
@@ -246,7 +255,7 @@ figcaption {
   margin: 0px auto 0px 20px;
 }
 
-figure p {
+figure, flowcontent {
   font-size: 15px;
   margin: 5px auto 5px 20px;
   font-family: 'Lato', sans-serrif;
