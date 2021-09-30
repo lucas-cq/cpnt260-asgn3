@@ -1,7 +1,7 @@
 # cpnt260-asgn3 - Lucas Cummings
 
 ## Repo and Pages
-* [Pages]()
+* [Pages](https://lucas-cq.github.io/cpnt260-asgn3/)
 * [Repo](https://github.com/lucas-cq/cpnt260-asgn3)
 
 ## Code Review
